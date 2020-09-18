@@ -23,9 +23,8 @@
   "type": "git",
   "url": "git://github.com/abdimohamud/trinkets-shopping-cart.git"
   },
-  {
-    "license" : "MIT" 
-  }
+  "author": "Abdi Mohamud",
+  "license" : "MIT", 
   "browserslist": [
     ">0.2%",
     "not dead",
