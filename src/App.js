@@ -24,6 +24,7 @@ const App = () => {
     setCart([...cart, item ])
   }
   const removeItem = id => {
+    // eslint-disable-next-line
 		setCart(cart.filter((obj) => obj.id != id));
 	}
   
