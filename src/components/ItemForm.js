@@ -30,7 +30,7 @@ const ItemForm = props => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    axios.post('http://localhost:3333/items', item).then((res) => {
+    axios.post('https://trinkets-shopping-list.herokuapp.com/items', item).then((res) => {
       props.setItemList(res.data)
       history.push(`/item-list/`);
     });

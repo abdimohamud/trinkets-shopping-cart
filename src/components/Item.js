@@ -14,7 +14,7 @@ function Item(props) {
   function handleDelete(e) {
     e.preventDefault();
     axios
-      .delete(`http://localhost:3333/items/${item.id}`)
+      .delete(`https://trinkets-shopping-list.herokuapp.com/items/${item.id}`)
       .then((res) => {
         props.setItems(res.data);
         history.push("/item-list");

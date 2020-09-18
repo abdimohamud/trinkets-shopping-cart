@@ -20,7 +20,7 @@ const App = () => {
   const [items, setItems] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:3333/items")
+      .get("https://trinkets-shopping-list.herokuapp.com/items")
       .then((res) => setItems(res.data))
       .catch((error) => console.log(error));
   }, []);
@@ -30,12 +30,12 @@ const App = () => {
   const removeItem = id => {
 		setCart(cart.filter((obj) => obj.id != id));
 	}
-  console.log(cart)
+  
 
   return (
     <div className="App">
       <nav>
-        <h1 className="store-header">Dustin's Trinkets</h1>
+        <h1 className="store-header">Trinkets Shop</h1>
         <div className="nav-links">
           <NavLink exact to="/item-form">
             Add Item

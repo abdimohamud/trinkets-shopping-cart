@@ -13,11 +13,11 @@ const initialItem = {
 const UpdateForm = (props) => {
   const history = useHistory();
   const { id } = useParams();
-  console.log(id);
+  
   const [item, setItem] = useState(initialItem);
   useEffect(() => {
     axios
-      .get(`http://localhost:3333/itemById/${id}`)
+      .get(`https://trinkets-shopping-list.herokuapp.com/itemById/${id}`)
       .then((res) => setItem(res.data))
       .catch((err) =>
         console.error("bk: UpdateForm.js: itemById failed: err: ", err.message)
@@ -40,7 +40,7 @@ const UpdateForm = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // make a PUT request to edit the item
-    axios.put(`http://localhost:3333/items/${id}`, item).then((res) => {
+    axios.put(`https://trinkets-shopping-list.herokuapp.com/items/${id}`, item).then((res) => {
       props.setItems(res.data);
       history.push(`/item-list/${id}`);
     });

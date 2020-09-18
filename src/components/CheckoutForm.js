@@ -26,8 +26,7 @@ const CheckoutForm = (props) => {
       const resetIt = () => {
         setValues(initialValue)
       }
-      console.log(data)
-      console.log(values)
+    
     
 
     return (
