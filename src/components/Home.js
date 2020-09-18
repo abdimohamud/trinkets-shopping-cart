@@ -10,14 +10,14 @@ function Home(props) {
 
   return (
     <div className="home-wrapper">
+      <button onClick={routeToShop} className="md-button shop-button">
+        Shop now!
+      </button>
       <img
         className="home-image"
         src='https://source.unsplash.com/F6-U5fGAOik'
         alt=''
       />
-      <button onClick={routeToShop} className="md-button shop-button">
-        Shop now!
-      </button>
     </div>
   );
 }
