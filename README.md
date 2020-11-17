@@ -5,6 +5,6 @@ This application fetches data from a json server, allowing the user to add items
 ![Alt Text](https://abdimohamud.codes/images/trinkets.gif)
 
 ## Demo Link
-[a link] (https://trinketshop.netlify.app/)
+ https://trinketshop.netlify.app/
 ## Backend API Documentation  
-[a link] (https://documenter.getpostman.com/view/12353296/TVeqc7He)
+https://documenter.getpostman.com/view/12353296/TVeqc7He
