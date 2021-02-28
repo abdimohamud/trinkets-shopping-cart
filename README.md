@@ -28,8 +28,9 @@
   
 <div align="center">
   <a href="https://trinketshop.netlify.app/" title="Demo"> Demo<img src="https://i.stack.imgur.com/xOpyY.png" alt="Redux" width="42px" height="42px"></a>
+ <br/>
 <a href="https://codesandbox.io/s/trinket-shop-mtesf?from-embed" title="CodeSandbox">CodeSandbox Demo<img src="https://github.com/gilbarbara/logos/blob/master/logos/codesandbox.svg" alt="CodeSandbox" width="42px" height="42px"></a>
- 
+ <br/>
    <a href="https://documenter.getpostman.com/view/12353296/TVeqc7He" title="API"> API docs<img src="https://github.com/gilbarbara/logos/blob/master/logos/postman.svg" alt="Postman" width="42px" height="42px"></a>
  
 
